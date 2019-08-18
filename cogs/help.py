@@ -7,7 +7,7 @@ class Help(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.command(name="help", brief="Shows all available commands", usage="!help or !help <command name>")
+    @commands.command(name="help", brief="Shows all available commands")
     async def help(self, ctx):
 
         # Assign every cog and command into variables for ease of use.
