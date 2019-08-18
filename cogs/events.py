@@ -7,7 +7,6 @@ from discord.ext import commands
 class Events(commands.Cog):
 	def __init__(self, bot):
 		self.bot = bot
-		#self.db = self.bot.db
 
 
 	async def get_channel_count(self, guild_id):
