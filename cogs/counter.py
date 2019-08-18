@@ -10,7 +10,6 @@ async def isOwner(ctx):
 class Counter(commands.Cog):
 	def __init__(self, bot):
 		self.bot = bot
-		#self.db = self.bot.db
 
 	async def get_channel_count(self, guild_id):
 		guild = self.bot.get_guild(guild_id)
